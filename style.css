@@ -1,0 +1,185 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Logo */
+.logo img {
+    height: 40px; /* Điều chỉnh kích thước logo */
+}
+
+/* Navigation Menu */
+.nav {
+    flex: 1; /* Cho phép menu giãn ra */
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: orange;
+}
+
+/* Menu bên phải */
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Login Button */
+.login-btn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+.login-btn:hover {
+    color: orange;
+}
+
+/* Search Icon */
+.search-btn {
+    background: none;
+    border: 2px solid orange;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.search-btn:hover {
+    background: orange;
+    color: white;
+}
+
+/* Hero Banner */
+.hero-banner {
+    width: 1920;
+    height: 5979.7998046875;
+    gap: 90px;
+    padding-bottom: 90px;
+
+}
+
+.hero-banner img {
+    width: 100%;
+    max-height: 400px; /* Điều chỉnh chiều cao tối đa */
+    object-fit: cover; /* Cắt ảnh cho đẹp */
+}
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.top-heading .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.top-heading .subtitle {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.btn-outline {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-outline:hover {
+    background: black;
+    color: white;
+}
+
+.categories {
+    text-align: left;
+    padding: 40px 10%;
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.category-item {
+    background: #000;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+.category-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.category-item p {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.category-item.active {
+    background: #fff;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category-item.active h3 {
+    color: #ff6b00;
+    font-size: 18px;
+}
+
+.category-item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+

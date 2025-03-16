@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -40,47 +40,68 @@
 
         <section class="categories">
             <h2>Explore our Popular Categories</h2>
+
             <div class="category-grid">
                 <div class="category-item active">
                     <img src="assets/icons/icon.svg" alt="Art & Design">
                     <h3>Art & Design</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
                     <img src="assets/icons/art.svg" alt="Development">
                     <h3>Development</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
                     <img src="assets/icons/communication.svg" alt="Communication">
-                    <h3>Development</h3>
+                    <h3>Communication</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
                     <img src="assets/icons/video.svg" alt="Videography">
-                    <h3>Development</h3>
+                    <h3>Videography</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
                     <img src="assets/icons/photo.svg" alt="Photography">
-                    <h3>Development</h3>
+                    <h3>Photography</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
                     <img src="assets/icons/marketing.svg" alt="Marketing">
-                    <h3>Development</h3>
+                    <h3>Marketing</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
-                    <img src="assets/icons/data.svg" alt="Content Writing">
+                    <img src="assets/icons/content writing.svg" alt="Content Writing">
                     <h3>Content Writing</h3>
                     <p>38 Courses</p>
                 </div>
+
                 <div class="category-item active">
-                    <img src="assets/icons/business.svg" alt="Finance">
+                    <img src="assets/icons/finance.svg" alt="Finance">
                     <h3>Finance</h3>
                     <p>38 Courses</p>
                 </div>
+
+                <div class="category-item active">
+                    <img src="assets/icons/business.svg" alt="Science">
+                    <h3>Science</h3>
+                    <p>38 Courses</p>
+                </div>
+
+                <div class="category-item active">
+                    <img src="assets/icons/icon.svg" alt="Network">
+                    <h3>Network</h3>
+                    <p>38 Courses</p>
+                </div>
+
             </div>
         </section>
 

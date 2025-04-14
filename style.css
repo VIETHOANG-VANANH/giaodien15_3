@@ -73,7 +73,9 @@
     cursor: pointer;
     margin-left: 15px;
 }
-
+.nnn{
+    color: #333;
+}
 .search-btn:hover {
     background: orange;
     color: white;
